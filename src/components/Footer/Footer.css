@@ -1,0 +1,52 @@
+.footer {
+  background-color: black;
+  padding: 100px 0;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: #fff;
+  gap: 5rem;
+}
+
+.footer__container h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #d6d6d6;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer__container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer__container li {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.contact__list i {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mailing li:first-child {
+  margin-top: 55px;
+}
+
+.green__color {
+  color: #68d237;
+}
+
+.contact li:nth-child(3) {
+  color: #68d237;
+}
+
+.contact li:nth-child(4) {
+  color: #68d237;
+}

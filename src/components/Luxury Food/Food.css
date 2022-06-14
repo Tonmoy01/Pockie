@@ -1,0 +1,15 @@
+.foods {
+  margin: 100px 0;
+}
+
+.foods__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  position: relative;
+}
+
+.foods__container .tabpanel__content__single_image img {
+  width: 270px;
+  height: 270px;
+}

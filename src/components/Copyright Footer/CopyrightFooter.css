@@ -1,0 +1,21 @@
+.copyright__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.copyright__container img {
+  width: 56px;
+  height: 32px;
+}
+
+.copyright_text span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.copyright__listitem {
+  font-size: 12px;
+  font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.watch__container {
+  margin: 100px 0;
+}
+
+.watch__content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}

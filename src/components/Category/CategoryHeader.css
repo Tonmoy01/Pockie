@@ -1,0 +1,30 @@
+.categoryMenu {
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 8px 16px rgba(69, 79, 89, 0.04);
+  z-index: 100;
+  position: relative;
+}
+
+i {
+  font-size: 20px;
+}
+
+.categoryMenu > span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+}
+
+.account i,
+.delivery i {
+  color: #cbcbcb;
+}
+
+.categoryMenu select {
+  background: transparent;
+  border: none;
+}

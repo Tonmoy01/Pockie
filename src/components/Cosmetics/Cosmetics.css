@@ -1,0 +1,14 @@
+.cosmetics {
+  margin: 100px 0;
+}
+
+.cosmetics__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.cosmetics__container .tabpanel__content__single_image img {
+  width: 270px;
+  height: 270px;
+}

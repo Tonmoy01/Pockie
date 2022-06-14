@@ -1,0 +1,15 @@
+.estate {
+  margin: 100px 0;
+}
+
+.estate__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4.5rem;
+  position: relative;
+}
+
+.estate__container .tabpanel__content__single_image img {
+  width: 270px;
+  height: 180px;
+}

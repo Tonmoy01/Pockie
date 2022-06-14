@@ -1,0 +1,107 @@
+.nothing {
+  z-index: 100000;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+
+.modal__content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  height: max-content;
+  width: 808px;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal__container {
+  display: flex;
+  gap: 2rem;
+}
+
+.modal__smallImage img {
+  width: 83px;
+  height: 83px;
+}
+
+.modal__container .main__image {
+  width: 368px;
+  height: 368px;
+}
+
+.nothing .product__name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rating__box i {
+  color: #ffe923;
+  padding-right: 10px;
+}
+
+.rating__box .modal__ratingCount {
+  font-size: 12px;
+  font-weight: 400;
+  color: #858585;
+}
+
+.modal__price {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.modal__right p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.highlighted__text {
+  color: #479622;
+}
+
+.modal__quantity {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.quantity__btn {
+  font-size: 40px;
+  cursor: pointer;
+  color: #858585;
+}
+
+.quantity__Total input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #d6d6d6;
+  color: #555555;
+  width: 40px;
+  height: 30px;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1%;
+  top: 0;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+}
